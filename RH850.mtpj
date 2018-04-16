@@ -793,6 +793,11 @@
       <IsBootLoader>False</IsBootLoader>
     </Instance>
   </Class>
+  <Class Guid="606767c3-4bf3-4e65-90c1-19075517355d">
+    <Instance Guid="606767c3-4bf3-4e65-90c1-19075517355d">
+      <CurrentToolKey>4a734220-ac9a-474b-bde9-fac27f567276</CurrentToolKey>
+    </Instance>
+  </Class>
   <Class Guid="8b5af363-dcc2-48e6-919c-6cdb80d50173">
     <Instance Guid="8b5af363-dcc2-48e6-919c-6cdb80d50173">
       <DataFormatVersionPlugin>1.0</DataFormatVersionPlugin>
@@ -801,7 +806,7 @@
   </Class>
   <Class Guid="9a065877-3b93-453c-9b72-940c69f10716">
     <Instance Guid="00000000-0000-0000-0000-000000000000">
-      <SubDebugger>4a734220-ac9a-474b-bde9-fac27f567276</SubDebugger>
+      <SubDebugger>00000000-0000-0000-0000-000000000000</SubDebugger>
     </Instance>
   </Class>
   <Class Guid="52e1ea47-4c41-4f6c-b81e-9caa42437088">
@@ -973,7 +978,6 @@
       <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
       <Debugger-DebugTarget-ProcessorElementNumber>1</Debugger-DebugTarget-ProcessorElementNumber>
-      <DebuggerProperty-EssentialProperty-EmulatorConnect-SerialNumber />
     </Instance>
     <Instance Guid="41cb1db7-6af7-45a4-a3e9-0d955d2eea5f">
       <DeviceChangedCounter>0</DeviceChangedCounter>
@@ -1102,7 +1106,12 @@
   </Class>
   <Class Guid="932085a2-9361-4df9-a3f7-12e6de7681a8">
     <Instance Guid="932085a2-9361-4df9-a3f7-12e6de7681a8">
-      <DebugToolManager>f2aacdac-89aa-4f89-8fbf-25090bc24c51</DebugToolManager>
+      <DebugToolManager>99f55032-f012-4b4e-afd0-07710f37568e</DebugToolManager>
+    </Instance>
+  </Class>
+  <Class Guid="104fc540-14b6-4fb9-bd7a-0d4844b95028">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <SubDebugger>4a734220-ac9a-474b-bde9-fac27f567276</SubDebugger>
     </Instance>
   </Class>
   <Class Guid="e4df8d71-236e-4af2-aaea-56345a08da25">
@@ -1274,7 +1283,6 @@
       <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
       <Debugger-DebugTarget-ProcessorElementNumber>1</Debugger-DebugTarget-ProcessorElementNumber>
-      <DebuggerProperty-EssentialProperty-EmulatorConnect-SerialNumber />
     </Instance>
     <Instance Guid="41cb1db7-6af7-45a4-a3e9-0d955d2eea5f">
       <DeviceChangedCounter>0</DeviceChangedCounter>
@@ -1536,11 +1544,6 @@
       <ChannelColor14>c0317f0c</ChannelColor14>
       <ChannelColor15>c060493e</ChannelColor15>
       <ChannelColor16>c072808e</ChannelColor16>
-    </Instance>
-  </Class>
-  <Class Guid="606767c3-4bf3-4e65-90c1-19075517355d">
-    <Instance Guid="606767c3-4bf3-4e65-90c1-19075517355d">
-      <CurrentToolKey>4a734220-ac9a-474b-bde9-fac27f567276</CurrentToolKey>
     </Instance>
   </Class>
   <Class Guid="08dbcb1a-af14-4bd0-9bd6-b8e875384f4f">

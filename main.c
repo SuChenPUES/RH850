@@ -10,20 +10,20 @@
 /***********************************************************************/
 
 #include "iodefine.h"
-#include <system.h>
 
 void main(void);
 
 void main(void)
 {
-	while(RSCAN0.GSTS.UINT8[LL]&0x08~=0)/*GRAMINIT‚ª0‚Å‚È‚¯‚ê‚Î‘Ò‚Â*/
+	
+	while(RSCAN0.GSTS.UINT8[0]&0x08!=0)/*Wait if GRAMINIT is not 0*/
 	{
-		sleep(5);
+		__nop();
 	}
 	
-	RSCAN0.GCTR.UINT8[LL/LH/HL]&=0xFB;/*GSLPR‚ð0‚É‚·‚é*/
+	RSCAN0.GCTR.UINT8[0]&=0xFB;/*Set GSLPR=0*/
 	
-	RSCAN0.C0CTR.UINT8[LL/LH/HL/HH]&=0xFB;/*CSLPR‚ð0‚É‚·‚é*/
+	RSCAN0.C0CTR.UINT8[0]&=0xFB;/*Set CSLPR=0*/
 	
 	
 }
