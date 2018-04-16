@@ -16,7 +16,7 @@ void main(void);
 void main(void)
 {
 	
-	while(RSCAN0.GSTS.UINT8[0]&0x08!=0)/*Wait if GRAMINIT is not 0*/
+	while((RSCAN0.GSTS.UINT8[0]&0x08)!=0)/*Wait if GRAMINIT is not 0*/
 	{
 		__nop();
 	}
